@@ -344,7 +344,7 @@ public class Login extends javax.swing.JFrame {
             
             if(res.next()){
                     if(res.getString(8).equals("false")){
-                        JOptionPane.showMessageDialog(this, "Wait for Admin Approval");
+                        JOptionPane.showMessageDialog(this, "Wait for Admin to Activate your Account");
                     }else{
                         JOptionPane.showMessageDialog(this,"Welcome " + username);
                         dispose();
